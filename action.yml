@@ -1,0 +1,16 @@
+name: 'YouTube action'
+description: 'Display the last links of YouTube Channel'
+inputs:
+  channel-id:  # id of input
+    description: 'the channel ID'
+    required: true
+  limit: #max links
+    description: 'number of links'
+    required: false
+    default: '5'
+outputs:
+  list: # id of output
+    description: 'The list of links'
+runs:
+  using: 'node16'
+  main: 'index.js'
