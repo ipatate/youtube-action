@@ -29,6 +29,8 @@ The list of links :
 
 ## Example usage
 
+```
 uses: actions/youtube-action@v1.1
 with:
   channel-id: 'My channel id'
+```
