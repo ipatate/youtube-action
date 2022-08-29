@@ -1,5 +1,8 @@
 name: 'YouTube action'
 description: 'Display the last links of YouTube Channel'
+branding:
+  icon: 'video'
+  color: 'red'
 inputs:
   channel-id:  # id of input
     description: 'the channel ID'
